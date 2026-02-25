@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class StringBuffer1{
+public static void main(String args[]){
+  String S1="hello";
+  System.out.println(S1.length());
+  String S2="programming";
+  System.out.println(S2.substring(0,6));
+  String S3="java";
+  System.out.println(S3.replace("a","o"));
+  StringBuffer Sb1=new StringBuffer("java");
+  Sb1.insert(4,"language");
+  System.out.println(Sb1);
+  StringBuffer Sb2=new StringBuffer("java");
+  Sb2.replace(0,4,"python");
+  System.out.println(Sb2);
+  StringBuffer Sb3=new StringBuffer("java");
+  Sb3.reverse();
+  System.out.println(Sb3);
+}
+}
